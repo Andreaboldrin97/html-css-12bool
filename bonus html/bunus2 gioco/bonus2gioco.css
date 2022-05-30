@@ -46,3 +46,8 @@ header{
  .spaceship img{
      filter: invert(1);
  }
+
+ /* MAIN HOVER */
+ .enemy:hover{
+     display: none;
+ }

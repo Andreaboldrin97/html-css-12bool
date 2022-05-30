@@ -1,0 +1,48 @@
+h1{
+    margin: 5px;
+}
+img{
+    width: 100%;
+}
+body{
+    background-color: rgb(0, 0, 0);
+}
+/*  header  */
+
+
+header{
+    background-color: black;
+    color: white;
+}
+ .rectangle{
+     background-color: rgb(43, 44, 46);
+     height: 50px;
+ }
+ .live{
+     background-color: green;
+ }
+ section{
+     margin-bottom: 15px;
+ }
+ .logo img{
+    filter: invert(1);
+ }
+ .player, .lives{
+     margin-top: 15px;
+ }
+
+
+ /* MAIN */
+ main{
+     margin-top: 20px;
+ }
+
+ .enemy img{
+    filter: invert(1);
+ }
+ .spaceship-home{
+     margin-top: 150px;
+ }
+ .spaceship img{
+     filter: invert(1);
+ }

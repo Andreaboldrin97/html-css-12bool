@@ -1,3 +1,6 @@
+.bordo{
+    border: 1px solid red;
+}
 h1{
     margin: 5px;
 }
@@ -52,7 +55,29 @@ header{
  .enemy:hover{
      display: none;
  }
-
+.spaceship-port:hover .spaceship{
+    animation-name: nav-move;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    position: relative;
+}
+@keyframes nav-move {
+    0% {
+        right: 20%;
+    }
+    25% {
+        top:30%;
+    }
+    50% {
+        bottom: 20%; 
+    } 
+    75% {
+        left: 20%;
+    }
+    100% {
+        right: 0; 
+    } 
+}
 
  /* FOOTER */
 

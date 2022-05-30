@@ -1,12 +1,15 @@
 [class*="col-"]{
     color: white;
     border: 1px solid white;
-    background-color: rgb(46, 106, 241);
  }
 
  .rectangle{
      background-color: rgb(46, 106, 241);
      height: 50px;
+ }
+ .rectangle-xs{
+    background-color: rgb(46, 106, 241);
+    height: 25px;
  }
  .nasted{
      background-color: rgb(54, 255, 47);
@@ -14,4 +17,3 @@
  section{
      margin-bottom: 15px;
  }
- 

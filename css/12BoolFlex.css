@@ -37,6 +37,29 @@
     justify-content: center;
     text-align: center;
  }
+
+ /* BONUS CSS */
+
+ .df-jc-fs {
+    justify-content: flex-start;
+    text-align: center;
+ }
+ .df-jc-fe {
+    justify-content:flex-end;
+    text-align: center;
+ }
+ .df-as-center{
+     align-self: center;
+     text-align: center;
+ }
+ .df-as-fs{
+     align-self:flex-start;
+     text-align: center;
+ }
+ .df-as-fe{
+     align-self: flex-end;
+     text-align: center;
+ }
  
  .p-1{
     padding: 10px;
